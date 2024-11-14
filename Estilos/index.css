@@ -21,7 +21,7 @@ body{
 
 #header{
     position: absolute;
-    background-image: url(../imagenes/cafeteria.jpg);
+    background-image: url(/imagenes/cafeteria.jpg);
     background-size: cover;
     width: 100vw;
     height: 80vh;
