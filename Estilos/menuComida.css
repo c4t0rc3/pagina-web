@@ -1,0 +1,705 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black
+}
+
+.pacifico{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+}
+
+.llave{
+    position: absolute;
+    background-color: white;
+    width: 49%;
+    height: 6%;
+    clip-path: polygon(10% 40%,
+    40% 20%,
+    70% 30%,
+    90% 20%,
+    94% 10%,
+    96% 6%,
+    98% 6%,
+    98% 10%,
+    90% 32%,
+    70% 42%,
+    40% 32%,
+    10% 48%,
+    8% 50%,
+    6% 68%,
+    6% 72%,
+    9% 80%,
+    11% 80%,
+    15% 70%,
+    16% 72%,
+    15% 76%,
+    10% 90%,
+    8% 90%,
+    3% 78%,
+    3% 76%,
+    7% 44%);
+}
+
+#header{
+    position: absolute;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+}
+
+
+#divHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: url(/imagenes/madera.png);
+    width: 100vw;
+    top: -6%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#titulo{
+    position: relative;
+    font-size: 130%;
+    left: 20%;
+}
+
+#nav{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+#divSlogan{
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 10%;
+    top: 10%;
+}
+
+#slogan{
+    position: absolute;
+    font-size: 80%;
+    top: 90%;
+    left: 10%;
+}
+
+#menuComida{
+    position: relative;
+    right: 20%;
+}
+
+#galeria{
+    position: relative;
+    right: 10%;
+}
+
+#basePlatosPrincipales{
+    position: absolute;
+    width: 80%;
+    height: 150%;
+    background-color: rgba(166, 41, 41, 0.5);
+    top: 20%;
+    left: 10%;
+    border-radius: 5%;
+}
+
+#baseBebidas{
+    position: absolute;
+    width: 80%;
+    height: 150%;
+    background-color: rgba(193, 140, 42, 0.5);
+    top: 180%;
+    left: 10%;
+    border-radius: 5%;
+}
+
+#basePostres{
+    position: absolute;
+    width: 80%;
+    height: 150%;
+    background-color: rgba(204, 70, 217, 0.5);
+    top: 340%;
+    left: 10%;
+    border-radius: 5%;
+}
+
+#basePaquetes{
+    position: absolute;
+    width: 80%;
+    height: 150%;
+    background-color: rgba(72, 223, 213, 0.5);
+    top: 500%;
+    left: 10%;
+    border-radius: 5%;
+}
+
+#platosPrincipales{
+    position: absolute;
+    top:3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: "Pacifico";
+    font-size: 150%;
+}
+
+#bebidas{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: "Pacifico";
+    font-size: 150%;
+}
+
+#postres{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: "Pacifico";
+    font-size: 150%;
+}
+
+#paquetes{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: "Pacifico";
+    font-size: 150%;
+}
+
+#llave1{
+    top: 7%;
+}
+
+#llave2{
+    top: 7%;
+    right: 0%;
+    transform: scaleX(-1);
+}
+
+
+
+.platos{
+    position: absolute;
+    width: 45%;
+    height: 20%;
+}
+
+#plato{
+    top: 15%;
+    left: 5%;
+}
+
+#bebida{
+    top: 15%;
+    left: 5%;
+}
+
+#postre{
+    top: 15%;
+    left: 5%;
+}
+
+#paquete{
+    top: 15%;
+    left: 5%;
+}
+
+#plato1{
+    top: 35%;
+    right: 5%;
+}
+
+#bebida1{
+    top: 35%;
+    right: 5%;
+}
+
+#postre1{
+    top: 35%;
+    right: 5%;
+}
+
+#paquete1{
+    top: 35%;
+    right: 5%;
+}
+
+#plato2{
+    top: 55%;
+    left: 5%;
+}
+
+#bebida2{
+    top: 55%;
+    left: 5%;
+}
+
+#postre2{
+    top: 55%;
+    left: 5%;
+}
+
+#paquete2{
+    top: 55%;
+    left: 5%;
+}
+
+#plato3{
+    top: 75%;
+    right: 5%;
+}
+
+#bebida3{
+    top: 75%;
+    right: 5%;
+}
+
+#postre3{
+    top: 75%;
+    right: 5%;
+}
+
+#paquete3{
+    top: 75%;
+    right: 5%;
+}
+
+.nombres{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0%;
+    font-size: 180%;
+    text-align: center;
+}
+
+#nombre3{
+    font-size: 179%;
+}
+
+#nombre10{
+    font-size: 149%;
+}
+
+.descripciones{
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    text-align: right;
+    top: 30%;
+}
+
+.descripciones h4{
+    position: absolute;
+    top: -5%;
+    right: 10%;
+    font-size: 95%;
+}
+
+
+
+#descripcion1{
+    left: 45%;
+    text-align: left;
+}
+
+#descripcion5{
+    left: 45%;
+    text-align: left;
+}
+
+#descripcion9{
+    left: 45%;
+    text-align: left;
+}
+
+#descripcion13{
+    left: 45%;
+    text-align: left;
+}
+
+#descripcion3{
+    left: 50%;
+    text-align: left;
+}
+
+#descripcion7{
+    left: 50%;
+    text-align: left;
+}
+
+#descripcion11{
+    left: 50%;
+    text-align: left;
+}
+
+#descripcion15{
+    left: 50%;
+    text-align: left;
+}
+
+.precios{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    top: 30%;
+    left: 60%;
+    font-size: 350%;
+}
+
+#precio1{
+    left: 0%;
+}
+
+#precio5{
+    left: 0%;
+}
+
+#precio9{
+    left: 0%;
+}
+
+#precio13{
+    left: -5%;
+}
+
+#precio3{
+    left: 0%;
+}
+
+#precio7{
+    left: 0%;
+}
+
+#precio11{
+    left: 0%;
+}
+
+#precio15{
+    left: 0%;
+}
+
+.lineaHorizontal{
+    position: absolute;
+    width: 100%;
+    height: 1%;
+    background-color: white;
+    top: 28%; 
+}
+
+.lineaVertical{
+    position: absolute;
+    width: 1%;
+    height: 73%;
+    background-color: white;
+    top: 28%;
+    left: 58%;
+}
+
+#lineaVertical1{
+    left: 40%;
+}
+
+#linraVertical5{
+    left: 10%;
+}
+
+#lineaVertical3{
+    left: 40%;
+}
+
+.imagenes{
+    position: absolute;
+    width: 40%;
+    height: 17%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+
+#imagen{
+    top: 17%;
+    left: 55%;
+    background-image: url(/imagenes/sandwich.jpg);
+    
+}
+
+#imagen4{
+    top: 17%;
+    left: 55%;
+    background-image: url(/imagenes/cafeExpresso.jpg);
+}
+
+#imagen8{
+    top: 17%;
+    left: 55%;
+    background-image: url(/imagenes/pastelChocolate.jpg);
+}
+
+#imagen12{
+    top: 17%;
+    left: 55%;
+    background-image: url(/imagenes/cafePastel.jpg);
+}
+
+#imagen1{
+    top: 37%;
+    left: 5%;
+    background-image: url(/imagenes/ensaladaCesar.jpg);
+}
+
+#imagen5{
+    top: 37%;
+    left: 5%;
+    background-image: url(/imagenes/latteVainilla.jpg);
+}
+
+#imagen9{
+    top: 37%;
+    left: 5%;
+    background-image: url(/imagenes/tartaLimon.jpg);
+}
+
+#imagen13{
+    top: 37%;
+    left: 5%;
+    background-image: url(/imagenes/almuerzoRapido.jpg);
+}
+
+#imagen2{
+    top: 57%;
+    left: 55%;
+    background-image: url(/imagenes/tortillaEspañola.jpg);
+}
+
+#imagen6{
+    top: 57%;
+    left: 55%;
+    background-image: url(/imagenes/teHelado.jpg);
+}
+
+#imagen10{
+    top: 57%;
+    left: 55%;
+    background-image: url(/imagenes/galletaAvena.jpg);
+}
+
+#imagen14{
+    top: 57%;
+    left: 55%;
+    background-image: url(/imagenes/familiar.jpg);
+}
+
+#imagen3{
+    top: 77%;
+    left: 5%;
+    background-image: url(/imagenes/quicheDeEspinacas.jpg);
+}
+
+#imagen7{
+    top: 77%;
+    left: 5%;
+    background-image: url(/imagenes/batidoFresa.jpg);
+}
+
+#imagen11{
+    top: 77%;
+    left: 5%;
+    background-image: url(/imagenes/Brownie.jpg);
+}
+
+#imagen15{
+    top: 77%;
+    left: 5%;
+    background-image: url(/imagenes/desayuno.jpg);
+}
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-image: url(/imagenes/madera.png);
+    top: 660%;
+    left: 0%;
+    background-size: cover;
+}
+
+
+
+#datos{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+
+#nombreMio{
+    position: absolute;
+    font-size: 80%;
+    top: 5%;
+    right: 5%;
+}
+
+#materia{
+    position: absolute;
+    font-size: 80%;
+    top: 30%;
+    right: 5%;
+}
+
+#universidad{
+    position: absolute;
+    font-size: 80%;
+    top: 5%;
+    left: 5%;
+}
+
+#facultad{
+    position: absolute;
+    font-size: 80%;
+    top: 30%;
+    left: 5%;
+}
+
+#redesSociales{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 20%;
+    text-align: center;
+}
+
+#fb{
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    left: 10%;
+}
+
+#insta{
+    font-size: 200%;
+    color: white;
+}
+
+#twitter{
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    right: 10%;
+}
+
+
+@media(max-width: 768px){
+    #divSlogan{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px){
+    .nombres{
+        font-size: 400%;
+    }
+    
+    #basePlatosPrincipales{
+        height: 300%;
+    }
+
+    #baseBebidas{
+        top: 340%;
+        height: 300%;
+    }
+
+    #basePostres{
+        top: 660%;
+        height: 300%;
+    }
+
+    #basePaquetes{
+        top: 980%;
+        height: 300%;
+    }
+
+    #nombre3{
+        font-size: 390%;
+    }
+
+    #nombre8{
+        font-size: 390%;
+    }
+
+    #nombre10{
+        font-size: 300%;
+    }
+
+    #nombre11{
+        font-size: 300%;
+    }
+
+    #footer{
+        top: 1300%;
+    }
+
+    #platosPrincipales{
+        font-size: 300%;
+    }
+
+    #postres{
+        font-size: 300%;
+    }
+
+    #bebidas{
+        font-size: 300%;
+    }
+
+    #paquetes{
+        font-size: 300%;
+    }
+
+    .descripciones{
+        font-size: 200%;
+    }
+
+    .precios{
+        font-size: 700%;
+    }
+}

@@ -1,0 +1,274 @@
+
+
+body{
+    background-color: black
+}
+
+.pacifico{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+}
+
+#header{
+    position: absolute;
+    background-image: url(/imagenes/cafeteria.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+}
+
+#header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 90%);
+    pointer-events: none;
+}
+
+#divHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: url(/imagenes/madera.png);
+    width: 100vw;
+    top: -6%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#titulo{
+    position: relative;
+    font-size: 130%;
+    left: 20%;
+}
+
+#nav{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+#divSlogan{
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 10%;
+    top: 10%;
+}
+
+#slogan{
+    position: absolute;
+    font-size: 80%;
+    top: 90%;
+    left: 10%;
+}
+
+#menuComida{
+    position: relative;
+    right: 20%;
+}
+
+#galeria{
+    position: relative;
+    right: 10%;
+}
+
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    height: 80vh;
+}
+
+.linea{
+    position: absolute;
+    background-color: white;
+}
+
+#linea1{
+    width: 40%;
+    height: 2%; 
+}
+
+
+#linea2{
+    width: 2%;
+    height: 40%; 
+}
+
+#linea3{
+    width: 40%;
+    height: 2%;
+    bottom: 0;
+    right: 0;
+}
+
+#linea4{
+    width: 2%;
+    height: 40%;
+    bottom: 0;
+    right: 0;
+}
+
+#quienesSomos{
+    position: absolute;
+    font-size: 200%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+    text-align: center;
+}
+
+#descripcion{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    top: 30%;
+    left: 10%;
+}
+
+#quienesSomosDescripcion{
+    color: white;
+    text-align: center;
+}
+
+#quienesSomosDescripcion1{
+    color: white;
+    text-align: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    background-image: url(/imagenes/madera.png);
+    top: 170%;
+    left: 0%;
+    background-size: cover;
+}
+
+#datos{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+
+#nombre{
+    position: absolute;
+    font-size: 80%;
+    top: 5%;
+    right: 5%;
+}
+#materia{
+    position: absolute;
+    font-size: 80%;
+    top: 30%;
+    right: 5%;
+}
+
+#universidad{
+    position: absolute;
+    font-size: 80%;
+    top: 5%;
+    left: 5%;
+}
+
+#facultad{
+    position: absolute;
+    font-size: 80%;
+    top: 30%;
+    left: 5%;
+}
+
+#redesSociales{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 20%;
+    text-align: center;
+}
+
+#fb{
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    left: 10%;
+}
+
+#insta{
+    font-size: 200%;
+    color: white;
+}
+
+#twitter{
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    right: 10%;
+}
+
+
+@media(max-width: 768px){
+    #divSlogan{
+        display: none;
+    }
+
+    #redesSociales{
+        width: 100vw;
+    }  
+}
+
+@media (max-width: 480px) {
+    #nombre{
+        font-size: 60%;
+    }    
+    #materia{
+        font-size: 60%;
+    }
+    #universidad{
+        font-size: 60%;
+    }
+    #facultad{
+        font-size: 60%;
+    }
+
+    #cuerpo{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 1024px){
+}

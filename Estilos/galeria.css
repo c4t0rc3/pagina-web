@@ -1,0 +1,241 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate{
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.box span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
+}
+
+.box span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pacifico{
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.quicksand{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+}
+#header{
+    position: absolute;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+}
+
+
+#divHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: url(/imagenes/madera.png);
+    width: 100vw;
+    top: -6%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#titulo{
+    position: relative;
+    font-size: 130%;
+    left: 20%;
+}
+
+#nav{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+#divSlogan{
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    left: 10%;
+    top: 10%;
+}
+
+#slogan{
+    position: absolute;
+    font-size: 80%;
+    top: 90%;
+    left: 10%;
+}
+
+#menuComida{
+    position: relative;
+    right: 20%;
+}
+
+#galeria{
+    position: relative;
+    right: 10%;
+}
+
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    position: absolute;
+    width: 100vw;
+    height: 15vh;
+    background-image: url(/imagenes/madera.png);
+    bottom: 0;
+    left: 0%;
+    background-size: cover;
+}
+
+#datos{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+}
+
+#nombre{
+    position: absolute;
+    font-size: 80%;
+    top: 5%;
+    right: 5%;
+}
+#materia{
+    position: absolute;
+    font-size: 80%;
+    top: 30%;
+    right: 5%;
+}
+
+#universidad{
+    position: absolute;
+    font-size: 80%;
+    top: 5%;
+    left: 5%;
+}
+
+#facultad{
+    position: absolute;
+    font-size: 80%;
+    top: 30%;
+    left: 5%;
+}
+
+#redesSociales{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 20%;
+    text-align: center;
+}
+
+#fb{
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    left: 10%;
+}
+
+#insta{
+    font-size: 200%;
+    color: white;
+}
+
+#twitter{
+    position: absolute;
+    font-size: 200%;
+    color: white;
+    right: 10%;
+}
+
+
+@media(max-width: 768px){
+    #divSlogan{
+        display: none;
+    }
+
+    #redesSociales{
+        width: 100vw;
+    }  
+}
+
+@media (max-width: 480px) {
+    #nombre{
+        font-size: 60%;
+    }    
+    #materia{
+        font-size: 60%;
+    }
+    #universidad{
+        font-size: 60%;
+    }
+    #facultad{
+        font-size: 60%;
+    }
+
+    #cuerpo{
+        width: 80vw;
+    }
+}
+
+
