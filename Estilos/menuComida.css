@@ -72,7 +72,7 @@ body{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    background-image: url(/imagenes/madera.png);
+    background-image: url(imagenes/madera.png);
     width: 100vw;
     top: -6%;
 
@@ -454,98 +454,98 @@ a{
 #imagen{
     top: 17%;
     left: 55%;
-    background-image: url(/imagenes/sandwich.jpg);
+    background-image: url(imagenes/sandwich.jpg);
     
 }
 
 #imagen4{
     top: 17%;
     left: 55%;
-    background-image: url(/imagenes/cafeExpresso.jpg);
+    background-image: url(imagenes/cafeExpresso.jpg);
 }
 
 #imagen8{
     top: 17%;
     left: 55%;
-    background-image: url(/imagenes/pastelChocolate.jpg);
+    background-image: url(imagenes/pastelChocolate.jpg);
 }
 
 #imagen12{
     top: 17%;
     left: 55%;
-    background-image: url(/imagenes/cafePastel.jpg);
+    background-image: url(imagenes/cafePastel.jpg);
 }
 
 #imagen1{
     top: 37%;
     left: 5%;
-    background-image: url(/imagenes/ensaladaCesar.jpg);
+    background-image: url(imagenes/ensaladaCesar.jpg);
 }
 
 #imagen5{
     top: 37%;
     left: 5%;
-    background-image: url(/imagenes/latteVainilla.jpg);
+    background-image: url(imagenes/latteVainilla.jpg);
 }
 
 #imagen9{
     top: 37%;
     left: 5%;
-    background-image: url(/imagenes/tartaLimon.jpg);
+    background-image: url(imagenes/tartaLimon.jpg);
 }
 
 #imagen13{
     top: 37%;
     left: 5%;
-    background-image: url(/imagenes/almuerzoRapido.jpg);
+    background-image: url(imagenes/almuerzoRapido.jpg);
 }
 
 #imagen2{
     top: 57%;
     left: 55%;
-    background-image: url(/imagenes/tortillaEspañola.jpg);
+    background-image: url(imagenes/tortillaEspañola.jpg);
 }
 
 #imagen6{
     top: 57%;
     left: 55%;
-    background-image: url(/imagenes/teHelado.jpg);
+    background-image: url(imagenes/teHelado.jpg);
 }
 
 #imagen10{
     top: 57%;
     left: 55%;
-    background-image: url(/imagenes/galletaAvena.jpg);
+    background-image: url(imagenes/galletaAvena.jpg);
 }
 
 #imagen14{
     top: 57%;
     left: 55%;
-    background-image: url(/imagenes/familiar.jpg);
+    background-image: url(imagenes/familiar.jpg);
 }
 
 #imagen3{
     top: 77%;
     left: 5%;
-    background-image: url(/imagenes/quicheDeEspinacas.jpg);
+    background-image: url(imagenes/quicheDeEspinacas.jpg);
 }
 
 #imagen7{
     top: 77%;
     left: 5%;
-    background-image: url(/imagenes/batidoFresa.jpg);
+    background-image: url(imagenes/batidoFresa.jpg);
 }
 
 #imagen11{
     top: 77%;
     left: 5%;
-    background-image: url(/imagenes/Brownie.jpg);
+    background-image: url(imagenes/Brownie.jpg);
 }
 
 #imagen15{
     top: 77%;
     left: 5%;
-    background-image: url(/imagenes/desayuno.jpg);
+    background-image: url(imagenes/desayuno.jpg);
 }
 
 
@@ -557,7 +557,7 @@ a{
     position: absolute;
     width: 100vw;
     height: 25vh;
-    background-image: url(/imagenes/madera.png);
+    background-image: url(imagenes/madera.png);
     top: 660%;
     left: 0%;
     background-size: cover;
